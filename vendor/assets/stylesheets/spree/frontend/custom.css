@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+}
+
+#taxon {
+  border-radius: 50px;
+}
+
+#keywords {
+  border-radius: 50px
+}
+
+.btn {
+  padding: 6px 16px;
+}
+
+.btn-success {
+  color: #f04336;
+  background-color: #ffffff;
+  border-color: #f04336;
+  border-radius: 50px;
+}
+
+.btn-success:hover {
+  color: #ffffff;
+  background-color: #f04336;
+  border-color: #f04336;
+  border-radius: 50px;
+}
+
+#spree-header {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding-top: 0.25em;
+}
+
+#spree-header .nav a {
+  color: black;
+}
+
+#header {
+    background: rgba(34, 34, 34, 0) !important;
+    padding: 20px 0;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #333333;
+    border-color: #333333;
+}
