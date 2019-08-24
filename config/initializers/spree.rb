@@ -7,9 +7,13 @@
 #       Just removing an entry from this initializer will not make the preference value go away.
 #       Instead you must either set a new value or remove entry, clear cache, and remove database entry.
 #
+Spree.config do |config|
+  config.logo = 'zlogo6.jpg'
+end
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
+  config.logo = 'zlogo6.jpg'
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
