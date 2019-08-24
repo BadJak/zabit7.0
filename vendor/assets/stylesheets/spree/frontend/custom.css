@@ -86,3 +86,17 @@ body {
 #pad {
   padding-top: 16px;
 }
+/*////////////*/
+img {
+    max-width: 100%;
+}
+
+
+.product-list-item .panel-body.product-body {
+  overflow: hidden;
+  padding: 0;
+}
+
+.product-list-item .panel-footer .product-name {
+  display: block;
+}

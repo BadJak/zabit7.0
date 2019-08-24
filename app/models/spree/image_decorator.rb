@@ -5,7 +5,7 @@ module YourApplication
         def styles
           {
             mini:    '48x48>',
-            small:   '120x120>',
+            small:   '240x240>',
             product: '240x240>',
             large:   '600x600>',
           }
