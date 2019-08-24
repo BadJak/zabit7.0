@@ -37,7 +37,7 @@ body {
 
 #spree-header {
     background-color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-top: 0.25em;
 }
 
@@ -57,7 +57,7 @@ body {
     border-color: #333333;
 }
 
-/*///////////////////////////*/
+/*////////////BANNER///////////////*/
 .banner {
   background-image: linear-gradient(rgba(0,0,0,-0.6),rgba(0,0,0,-0.6)),
   url('slide-03.jpg');
@@ -68,7 +68,7 @@ body {
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: #000000;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
@@ -76,7 +76,7 @@ body {
 
 .banner p {
   font-size: 20px;
-  color: white;
+  color: #000000;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
@@ -86,7 +86,7 @@ body {
 #pad {
   padding-top: 16px;
 }
-/*////////////*/
+/*/////PRODUCT///////*/
 img {
     max-width: 100%;
 }
