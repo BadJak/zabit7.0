@@ -59,6 +59,8 @@ body {
 
 /*///////////////////////////*/
 .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+  url('slide-01.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -77,4 +79,10 @@ body {
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/*//////////////pad/////////////////*/
+
+#pad {
+  padding-top: 16px;
 }
