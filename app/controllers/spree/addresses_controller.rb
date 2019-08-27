@@ -62,9 +62,6 @@ module Spree
                               :address1,
                               :address2,
                               :city,
-                              :state_id,
-                              :zipcode,
-                              :country_id,
                               :phone)
     end
   end
