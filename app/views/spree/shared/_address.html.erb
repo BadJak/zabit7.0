@@ -22,7 +22,7 @@
         <span class="region"><%= address.state_text %></span>
       <% end %>
       <span class="postal-code"><%= address.zipcode %></span>
-      <div class="country-name"><%= address.country.try(:name) %></div>
+      <!-- <div class="country-name"><%#= address.country.try(:name) %></div> -->
     </div>
   </div>
   <% unless address.phone.blank? %>
