@@ -19,7 +19,7 @@
                   <span class="price diff"><%= variant_price variant %></span>
                 <% end %>
                 <% unless variant.can_supply? %>
-                  <span class="out-of-stock"><%= Spree.t(:out_of_stock) %></span>
+                  <span class="out-of-stock">غير متوفر في المخزون</span>
                 <% end %>
               <% end %>
             </li>
@@ -49,7 +49,7 @@
           <% end %>
           <% if @product.backordered? %>
             <div class="alert alert-warning" id="cart-backordered-info">
-              <%= Spree.t(:backordered_info) %>
+              المنتج المختار غير متوفر الآن, لذا توقع بعض التأخير
             </div>
           <% end %>
         </div>

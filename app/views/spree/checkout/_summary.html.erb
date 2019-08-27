@@ -1,9 +1,9 @@
-<h3><%= Spree.t(:order_summary) %></h3>
+<h3>ملخص الطلب</h3>
 
 <table class="table" data-hook="order_summary">
   <tbody>
     <tr data-hook="item_total">
-      <td><strong><%= Spree.t(:item_total) %>:</strong></td>
+      <td><strong>إجمالي المنتج:</strong></td>
       <td><strong><%= order.display_item_total.to_html %></strong></td>
     </tr>
 
@@ -29,7 +29,7 @@
 
     <% if order.passed_checkout_step?("address") && order.shipments.any? %>
       <tr data-hook="shipping_total">
-        <td><%= Spree.t(:shipping_total) %>:</td>
+        <td>إجمالي التوصيل:</td>
         <% shipping_total = Spree::Money.new(order.shipments.to_a.sum(&:cost), currency: order.currency) %>
         <td data-hook='shipping-total' data-currency='<%= Money::Currency.find(order.currency).symbol %>' thousands-separator='<%= shipping_total.thousands_separator %>' decimal-mark='<%= shipping_total.decimal_mark %>'><%= shipping_total.to_html %></td>
       </tr>
@@ -59,7 +59,7 @@
     <% end %>
 
     <tr data-hook="order_total">
-      <td><strong><%= Spree.t(:order_total) %>:</strong></td>
+      <td><strong>إجمالي الطلب:</strong></td>
       <td>
         <strong>
           <span id='summary-order-total' class="lead text-primary" data-currency="<%= Money::Currency.find(order.currency).symbol %>"><%= order.display_total.to_html %></span>
