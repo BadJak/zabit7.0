@@ -59,8 +59,7 @@ body {
 
 /*////////////BANNER///////////////*/
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,-0.6),rgba(0,0,0,-0.6)),
-  url('slide-03.jpg');
+
   background-size: cover;
   background-position: center;
   padding: 150px 0;
