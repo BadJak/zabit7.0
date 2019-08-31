@@ -16,6 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
+gem 'aws-sdk', '< 2.0'
 # gem 'mini_racer', platforms: :ruby
 gem 'spree', '~> 3.7'
 gem 'spree_auth_devise', '~> 3.5'
