@@ -17,6 +17,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'aws-sdk', '< 2.0'
+
+
+gem "aws-sdk-s3", require: false
+
 # gem 'mini_racer', platforms: :ruby
 gem 'spree', '~> 3.7'
 gem 'spree_auth_devise', '~> 3.5'
